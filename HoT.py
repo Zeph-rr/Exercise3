@@ -3,6 +3,9 @@ import random
 heads = 0
 tails = 0
 
+name = input("Who are you?\n")
+print("Hello, " + name + "!")
+
 print("Tossing a coin... ")
 for round in range(1,3):
     if random.randint(1,2) == 1:
